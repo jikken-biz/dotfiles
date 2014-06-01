@@ -1,0 +1,10 @@
+"フォント設定
+set guifont=MS_Gothic:h10:cSHIFTJIS
+"色テーマ設定
+colorscheme darkblue
+"起動時のウインドウサイズ指定
+set lines=40
+set columns=80
+"ドラッグ＆ドロップされたとき新しいタブで開く
+autocmd VimEnter * tab all
+autocmd BufAdd * exe 'tablast | tabe "' . expand( "<afile") .'"'

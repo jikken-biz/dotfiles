@@ -1,0 +1,9 @@
+"起動時のスプラッシュを禁止
+set shortmess+=I
+"Windows風キーバインドにする
+source $VIMRUNTIME/mswin.vim
+"表示行でカーソルを移動する
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up>   gk
